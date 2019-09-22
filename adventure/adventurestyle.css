@@ -1,0 +1,7 @@
+.adventurestyle-class{
+	padding: 50px 100px 50px 100px;
+	font-family: "courier"; 
+	font-size: 2em;
+	color: gray;
+	border:3px solid pink;
+}
