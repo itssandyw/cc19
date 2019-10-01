@@ -1,0 +1,364 @@
+body{
+	font-family: helvetica;
+	margin: 30px
+}
+
+section {
+	width: 46%;
+	float: left;
+}
+
+h1{
+	margin:0px
+}
+
+#sentence h1{
+	font-size: 65px;
+	color:#270b4f;
+}
+#sentence-1{
+	opacity: 1
+}
+#sentence-2{
+	opacity: 0.60
+}
+#sentence-3{
+	opacity: 0.50
+}
+#sentence-4{
+	opacity: 0.40
+}
+#sentence-5{
+	opacity: 0.30
+}
+#sentence-6{
+	opacity: 0.16
+}
+
+#jelly-fish h1{
+	font-size: 80px;
+	display: inline;
+	word-break: break-all;
+}
+#jelly{
+	color: #833ab4
+}
+#butter{
+	color: #97339c
+}
+#cheese{
+	color: #a2328d
+}
+#mayonnaise{
+	color: #a93084
+}
+#lard{
+	color: #af2f7d
+}
+#broth{
+	color: #b62d69
+}
+#stew{
+	color: #bc2c56
+}
+#sausage{
+	color: #c22b2b
+}
+#meat{
+	color: #c92929
+}
+#lobster{
+	color: #cf3328
+}
+#shrimp{
+	color: #d54d27
+}
+#squid{
+	color: #dc6b25
+}
+#mussels{
+	color: #e37a23
+}
+#crabs{
+	color: #eab221
+}
+#shellfish{
+	color: #f0e720
+}
+#crayfish{
+	color: #d5f71e
+}
+#fish{
+	color: #b8fd1d
+}
+
+#vaca h2{
+	margin: 10px;
+	font-size: 50px;
+}
+#vaca-1{
+	color: #94bbe9
+}
+#vaca-2{
+	color: #b9aedb
+}
+#vaca-3{
+	color: #d3b1db
+}
+#vaca-4{
+	color: #dbb1d0
+}
+#vaca-5{
+	color: #d3b1db
+}
+#vaca-6{
+	color: #b9aedb
+}
+#vaca-7{
+	color: #94bbe9
+}
+
+#man h2{
+	margin: 40px;
+	font-size: 20px;
+	color: #5a788c;
+}
+#man-1{
+	opacity: 0.10;
+	transform: rotate(-5deg);
+}
+#man-2{
+	opacity: 0.20;
+	transform: rotate(3deg);
+}
+#man-3{
+	opacity: 0.40;
+	transform: rotate(0deg);
+}
+#man-4{
+	opacity: 0.60;
+	transform: rotate(-3deg);
+}
+#man-5{
+	opacity: 0.80;
+	transform: rotate(-2deg);
+}
+#man-6{
+	opacity: 1;
+	transform: rotate(4deg);
+}
+
+#water-land h3{
+	margin: 0px;
+	font-size: 40px;
+}
+#water{
+	transform: translate(-10px);
+	color: #240d9d
+}
+#pipe{
+	transform: translate(20px);
+	color: #3d20b3
+}
+#seawater{
+	transform: translate(40px);
+	color: #353686
+}
+#pumped{
+	transform: translate(60px);
+	color: #574a31
+}
+#rainwater{
+	transform: translate(80px);
+	color: #6e5432
+}
+#drinking{
+	transform: translate(100px);
+ 	color: #625644
+}
+#sewer{
+	transform: translate(100px);
+	color: #625644
+}
+#wastewater{
+	transform: translate(80px);
+	color: #6e5432
+}
+#soil{
+	transform: translate(60px);
+	color: #574a31
+}
+#irrigated{
+	transform: translate(40px);
+	color: #353686
+}
+#farmland{
+	transform: translate(20px);
+	color: #3d20b3
+}
+#land{
+	transform: translate(-10px);
+	color: #240d9d
+}
+
+.element {
+	display: inline-block;
+ 	position: fixed;
+ 	width: 380px;
+ 	height: 390px;
+ 	border-radius: 50%;
+ 	animation: pulse 5s infinite;
+}
+.circle h3{
+	position: absolute;
+	left: 5%;
+	top: 20%;
+	font-size: 18px;
+	color: white;
+	text-align: center;
+}
+
+@keyframes pulse {
+ 	0% {
+    background-color: #FAACA8;
+}
+ 	100% {
+    background-color: #DDD6F3;
+}
+}
+
+#feel h4{
+	margin: 0px;
+	font-size: 40px;
+	font-family: courier;
+	color: #623AA2
+}
+#feel-1{
+	transform: translate(100px);
+	opacity: 1;
+}
+#feel-2{
+	transform: translate(80px);
+	opacity: 0.70;
+}
+#feel-3{
+	transform: translate(60px);
+	opacity: 0.50;
+}
+#feel-4{
+	transform: translate(40px);
+	opacity: 0.30;
+}
+#feel-5{
+	transform: translate(20px);
+	opacity: 0.20;
+}
+#feel-6{
+	transform: translate(-10px);
+	opacity: 0.10;
+}
+
+#food-drink h4{
+	margin: 0px;
+	font-size:50px;
+	font-family: times;
+}
+#food{
+	transform: translate(-20px);
+	color: #9e1818
+}
+#groceries{
+	transform: translate(-50px);
+	color: #b5414d
+}
+#seafood{
+	transform: translate(-80px);
+	color: #c55d72
+}
+#meats{
+	transform: translate(-110px);
+	color: #ce6d87
+}
+#canned{
+	transform: translate(-80px);
+	color: #d981a0
+}
+#snacks{
+	transform: translate(-40px);
+	color: #d981a0
+}
+#biscuits{
+	transform: translate(-10px);
+	color: #ce6d87
+}
+#bottled{
+	transform: translate(-40px);
+	color: #c55d72
+}
+#beverage{
+	transform: translate(-80px);
+	color: #b5414d
+}
+#drink{
+	transform: translate(-110px);
+	color: #9e1818
+}
+
+#bad h5{
+	position: absolute;
+	right: 100px;
+	font-size: 90px;
+}
+#bad-1{
+	opacity: 0.90;
+}
+#bad-2{
+	opacity: 0.80;
+}
+#bad-3{
+	opacity: 0.60;
+}
+#bad-4{
+	opacity: 0.40;
+}
+#bad-5{
+	opacity: 0.20;
+}
+#bad-6{
+	opacity: 0.15;
+}
+#bad-7{
+	opacity: 0.13;
+}
+
+#escape h5{
+	font-size: 20px;
+	font-family: arial;
+	background-color: #bbb3c6;
+}
+#escape-1{
+	transform: rotate(2deg);
+	opacity: 1
+}
+#escape-2{
+	transform: rotate(1deg);
+	opacity: 0.80
+}
+#escape-3{
+	transform: rotate(0deg);
+	opacity: 0.60
+}
+#escape-4{
+	transform: rotate(-2deg);
+	opacity: 0.40
+}
+#escape-5{
+	transform: rotate(-1deg);
+	opacity: 0.20
+}
+#escape-6{
+	transform: rotate(0deg);
+	opacity: 0.13
+}
+
+
