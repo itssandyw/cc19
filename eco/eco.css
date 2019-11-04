@@ -1,0 +1,104 @@
+html, body{
+	margin: auto;
+	font-family: arial, white;
+	font-size: 20px;
+}
+.bg{
+	width: 100vw;
+	position: absolute;
+}
+.fish1{
+	width: 20%;
+	position: absolute;
+	left: 80%;
+	bottom: 55%;
+}
+.fish2{
+	width: 20%;
+	position: absolute;
+	left: 65%;
+	bottom: 35%;
+}
+.jellyfish1{
+	width: 20%;
+	position: absolute;
+	left: 20%;
+	bottom: 60%;
+}
+.jellyfish2{
+	width: 25%;
+	position: absolute;
+	transform: rotate(80deg);
+	left: 45%;
+	bottom: 45%;
+}
+.jellyfish3{
+	width: 25%;
+	position: absolute;
+	left: 45%;
+	bottom: 50%;
+}
+.jellyfish4{
+	width: 25%;
+	position: absolute;
+	left: 20%;
+	bottom: 60%;
+}
+.coral1{
+	width: 20%;
+	position: absolute;
+	right: 40%;
+	top: 45%;
+	transform: scale(1);
+}
+.coral1:hover{
+	transform: scale(1.5);
+}
+.coral2{
+	width: 15%;
+	position: absolute;
+	right: 55%;
+	top: 58%;
+	opacity: 1;
+}
+.coral2:hover{
+	opacity: 0.6;
+}
+.coral3{
+	width: 35%;
+	position: absolute;
+	right: 65%;
+	top: 20%;
+	transform: scale(1);
+	opacity: 1;
+}
+.coral3:hover{
+	transform: scale(0.5);
+	opacity: 0.7;
+}
+.coral4{
+	width: 25%;
+	position: absolute;
+	left: 75%;
+	top: 40%;
+	transform: scale(1);
+}
+.coral4:hover{
+	transform: scale(1.5);
+}
+.bubble1{
+	width: 5%;
+	position: absolute;
+	z-index: 2;
+	left: 75%;
+	bottom: 65%;
+}
+.bubble2{
+	width: 5%;
+	position: absolute;
+	z-index: 2;
+	left: 70%;
+	bottom: 45%;
+}
+
+
