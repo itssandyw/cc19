@@ -46,17 +46,20 @@ figcaption {
 	line-height: 15px;
 }
 
-.drop {
-  background:-webkit-gradient(linear,0% 0%,0% 0%, from(rgb(255,255,255) ), to(rgb(0,0,0))  );
-  width:1px;
-  height:90px;
-  position: absolute;
-  bottom:200px;
-  animation: fall 1s linear infinite;
+.rain{
+	position: absolute;
+	width: 100%;
+	animation: falldown 25s linear;	
 }
-@keyframes fall {
- to {margin-top:500px;}
+@keyframes falldown {
+	0% {
+		
+	}
+	100% {
+		transform: translateY(250vw);
+	}
 }
+
 .flower {
 	position: absolute;
 	transition: opacity 3s ease;
