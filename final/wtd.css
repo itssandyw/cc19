@@ -59,7 +59,7 @@ section .box:before
 	border-radius: 0%;
 }
 .cell:nth-child(2n+2){
-	background-color: black;
+	background-color: #cdb8f2;
 	opacity: 0.7;
 }
 .cell:nth-child(2n+2):hover {
