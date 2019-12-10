@@ -1,0 +1,66 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	background: white;
+	background-attachment: scroll;
+}
+
+.cell {
+	width: 20%;
+	height: 25%;
+	float: left;
+	border-radius: 0%;
+}
+.cell:nth-child(2n+2){
+	background-color: black;
+	opacity: 0.7;
+}
+.cell:nth-child(2n+2):hover {
+	cursor: pointer;
+}
+
+.pin{
+	width:100%;
+	height: 100%;
+}
+.davelle{
+	width: 100%;
+	height: 100%;
+}
+.high{
+	width: 100%;
+	height: 100%;
+}
+.thrift{
+	width: 100%;
+	height: 100%;
+}
+.harry{
+	width: 100%;
+	height: 100%;
+}
+.cake{
+	width: 100%;
+	height: 100%;
+}
+.te{
+	width: 100%;
+	height: 100%;
+}
+.brunch{
+	width: 100%;
+	height: 100%;
+}
+.east{
+	width: 100%;
+	height: 100%;
+}
+.venchi{
+	width: 100%;
+	height: 100%;
+}
+.sleep{
+	width: 100%;
+	height: 100%;
+}
