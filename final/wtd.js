@@ -11,7 +11,7 @@ $(document).ready(function(){
 		$(this).find(".pin").hide();
 	});
 	$("section").mouseover(function(){
-		$("section").hide();
+	$("section").hide();
 	});
-	
- });
+
+ });  
